@@ -4,7 +4,6 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['prettier'],
-  // exclude: ['dist'],
   rules: {
     'prettier/prettier': 'error',
     'no-console': 'off',

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "./dist", // 编译后生成的文件目录
     "target": "esnext",
     "module": "esnext",
     "strict": true,
@@ -10,8 +11,8 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "declaration": true, // 生成 `.d.ts` 文件
     "baseUrl": ".",
-    "types": ["jest", "puppeteer", "node"],
     "paths": {
       "@/*": [
         "src/*"

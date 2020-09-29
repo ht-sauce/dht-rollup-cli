@@ -4,7 +4,8 @@
   "description": "",
   "main": "rollup.config.js",
   "scripts": {
-    "bulid": "rollup --config rollup.config.js"
+    "bulid": "rollup --config rollup.config.js && tsc",
+    "tsbulid": "tsc"
   },
   "author": "",
   "license": "ISC",
