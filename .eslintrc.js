@@ -4,11 +4,11 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['prettier'],
+  // exclude: ['dist'],
   rules: {
     'prettier/prettier': 'error',
     'no-console': 'off',
     'no-debugger': 'warn',
-    'vue/no-unused-components': 'off',
     'no-unused-vars': 'off',
   },
 }
