@@ -8,7 +8,7 @@ import { terser } from 'rollup-plugin-terser' // 压缩js
 const extensions = ['.js', '.ts']
 
 const config = {
-  input: 'src/main.ts',
+  input: 'src/Ajax.ts',
   // external: ['react', 'redux'], // 告诉rollup，不打包react,redux;将其视为外部依赖
   output: {
     name: 'dhtAjax',
